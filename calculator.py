@@ -12,7 +12,7 @@ class Calculator(object):
     !!Don't forget to run static analyzers and unittests
     before pushing your code. (check 100% test covered)
     """
-    def mul(sef, a, b):
+    def mul(sef, a:float, b:float)->float:
         c = a*b
         return c
 

@@ -13,4 +13,6 @@ class Calculator(object):
     before pushing your code. (check 100% test covered)
     """
 
-    pass
+    def sub(self, a: float, b: float) -> float:
+        return a-b
+

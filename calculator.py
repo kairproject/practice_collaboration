@@ -27,8 +27,10 @@ Todo:
 
 """
 
+
 class Calculator(object):
-    """Simple calculator which has 4 functionalities.
+    """
+    Simple calculator which has 4 functionalities.
 
     => add, sub, mul, div
 
@@ -38,20 +40,19 @@ class Calculator(object):
     !!Don't forget to run static analyzers and unittests
     before pushing your code. (check 100% test covered)
     """
-    def init(self):
-        return
 
-    def mul(sef, a: float, b: float)->float:
+    def mul(sef, a: float, b: float) -> float:
+        """Multiply the inputs.
+
+        This fuction is multiply the float two inputs:
+
+        Args:
+            a (float): The first parameter.
+            b (float): The second parameter.
+
+        Returns:
+            float: The return value.
+
+        """
         c = a*b
         return c
-
-    pass
-
-
-
-
-
-
-
-
-

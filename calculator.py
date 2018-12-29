@@ -27,3 +27,7 @@ class Calculator(object):
             float: The quotient fo two given numbers.
         """
         return a / b
+
+    def add(self, x, y):
+        """Return the sum of two inputs."""
+        return x+y

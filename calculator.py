@@ -14,5 +14,5 @@ class Calculator(object):
     """
 
     def add(self, x, y):
-        """returns the sum of two inputs."""
+        """Return the sum of two inputs."""
         return x+y

@@ -16,7 +16,9 @@ class TestCalculator():
         pass
 
     def test_sub(self):
-        """First unit test : check two positive inputs.
+        """Check 3 test cases. Vary input signs and check the results.
+
+        First unit test : check two positive inputs.
 
         Second unit test : check one negative input and one positive input.
 

@@ -12,5 +12,7 @@ class Calculator(object):
     !!Don't forget to run static analyzers and unittests
     before pushing your code. (check 100% test covered)
     """
+
     def add(self, x, y):
+        """returns the sum of two inputs."""
         return x+y

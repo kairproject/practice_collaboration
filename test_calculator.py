@@ -1,6 +1,6 @@
 """Test cases for calculator.py."""
 
-# from calculator import Calculator
+from calculator import Calculator
 
 
 class TestCalculator():
@@ -25,4 +25,18 @@ class TestCalculator():
 
     def test_div(self):
         """Put your test cases for div that starts with assert."""
-        pass
+        calc = Calculator()
+        result = calc.div(4.2, 2.1)
+        assert result == 2
+
+        result = calc.div(5, 2.)
+        assert result == 2.5
+
+        result = calc.div(100, 20.)
+        assert result == 5
+
+        result = calc.div(5.e10, 10.)
+        assert result == 5.e9
+
+        result = calc.div(1., 1.e5)
+        assert result == 1.e-5

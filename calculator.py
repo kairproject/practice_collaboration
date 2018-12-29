@@ -12,6 +12,6 @@ class Calculator(object):
     !!Don't forget to run static analyzers and unittests
     before pushing your code. (check 100% test covered)
     """
-    def sub(a: float, b: float) -> float:
+    def sub(self, a: float, b: float) -> float:
         return a-b
     pass

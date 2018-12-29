@@ -16,11 +16,16 @@ class TestCalculator():
         pass
 
     def test_sub(self):
-        """3 Example unit test."""
+        """First unit test : check two positive inputs.
+
+        Second unit test : check one negative input and one positive input.
+
+        Third unit test : check two negative inputs.
+        """
         cal = Calculator()
         assert cal.sub(10.0, 7.3) == 2.7
-        assert cal.sub(6.3, 7.3) == -1.0
-        assert cal.sub(2.0, 3.1) == -1.1
+        assert cal.sub(-6.3, 7.3) == -13.6
+        assert cal.sub(-2.0, -3.1) == 1.1
 
     def test_mul(self):
         """Put your test cases for mul that starts with assert."""

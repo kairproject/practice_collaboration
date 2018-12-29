@@ -16,7 +16,7 @@ class TestCalculator():
         pass
 
     def test_sub(self):
-        """Put your test cases for sub that starts with assert."""
+        """3 Example unit test."""
         cal = Calculator()
         assert cal.sub(10.0, 7.3) == 2.7
         assert cal.sub(6.3, 7.3) == -1.0

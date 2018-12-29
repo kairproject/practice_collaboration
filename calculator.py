@@ -56,3 +56,19 @@ class Calculator(object):
         """
         c = a*b
         return c
+
+    def div(self, a, b):
+        """Return quotient of two given numbers.
+
+        Given two numbers float type a, b
+        returns float type a/b.
+
+        Arg:
+            a (float): The dividend of dvision function.
+            b (float): The divisor of dvision function.
+
+        Return:
+            float: The quotient fo two given numbers.
+        """
+        return a / b
+

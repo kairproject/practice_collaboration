@@ -14,7 +14,7 @@ class Calculator(object):
 
     """
 
-    def Sub(self, a: float, b: float) -> float:
+    def sub(self, a: float, b: float) -> float:
         """Subtraction method for calculator class.
 
         Note:

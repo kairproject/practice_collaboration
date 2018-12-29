@@ -13,4 +13,6 @@ class Calculator(object):
     before pushing your code. (check 100% test covered)
     """
 
-    pass
+    def add(self, x, y):
+        """Return the sum of two inputs."""
+        return x+y

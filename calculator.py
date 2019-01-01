@@ -12,5 +12,5 @@ class Calculator(object):
     !!Don't forget to run static analyzers and unittests
     before pushing your code. (check 100% test covered)
     """
-
-    pass
+    def mul(self, a, b):
+        return a*b

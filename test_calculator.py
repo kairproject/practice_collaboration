@@ -21,7 +21,6 @@ class TestCalculator():
 
     def test_mul(self):
         """Put your test cases for mul that starts with assert."""
-        
         calc = Calculator()
         result = calc.mul(1.1, 2.0)
         assert result == 2.2
@@ -31,7 +30,6 @@ class TestCalculator():
 
         result = calc.mul(100, 20.)
         assert result == 2000.0
-
 
     def test_div(self):
         """Put your test cases for div that starts with assert."""

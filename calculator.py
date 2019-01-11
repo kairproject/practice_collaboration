@@ -71,4 +71,3 @@ class Calculator(object):
             float: The quotient fo two given numbers.
         """
         return a / b
-

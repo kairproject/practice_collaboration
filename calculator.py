@@ -36,13 +36,13 @@ class Calculator(object):
         Note:
             Do not include the `self` parameter in the ``Args`` section.
         Args:
-            param1: The first parameter.
-            param2: The second parameter.
+            a (float): The left operand of subtraction.
+            b (float): The right operand of subtraction.
         Returns:
-            Subtraction of param1 to param2.
+            Subtraction of a to b.
 
         """
-        return a-b
+        return a - b
 
     def bitwise_or(self, a: int, b: int) -> int:
         """Copy a bit if it exists in either operand.
@@ -50,8 +50,8 @@ class Calculator(object):
         Note:
             Do not include the `self` parameter in the ``Args`` section.
         Args:
-            param1: The first parameter.
-            param2: The second parameter.
+            param1: The left operand of bitwise or.
+            param2: The right operand of bitwise of.
         Returns:
             Bit which exists in either operand.
 

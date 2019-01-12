@@ -23,9 +23,14 @@ class TestCalculator():
         Third unit test : check two negative inputs.
         """
         cal = Calculator()
-        assert cal.sub(10.0, 7.3) == 2.7
-        assert cal.sub(-6.3, 7.3) == -13.6
-        assert cal.sub(-2.0, -3.1) == 1.1
+        result = cal.sub(10.0, 7.3)
+        assert result == 2.7
+
+        result = cal.sub(-6.3, 7.3)
+        assert result == -13.6
+
+        result = cal.sub(-2.0, -3.1)
+        assert result == 1.1
 
     def test_mul(self):
         """Put your test cases for mul that starts with assert."""

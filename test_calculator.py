@@ -46,5 +46,3 @@ class TestCalculator():
         calc = Calculator()
         result = calc.bitwise_xor(60, 13)
         assert result == 49
-
-

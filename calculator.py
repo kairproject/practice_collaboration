@@ -5,6 +5,8 @@ class Calculator(object):
     """Simple calculator which has 4 functionalities.
 
     => add, sub, mul, div
+    => bitwise_shift_left, bitwise_shift_right, bitwise_and
+    => bitwise_or, bitwise_not, bitwise_xor
 
     All methods will be implemented as staticmethods
     so that it can be called without making an object.

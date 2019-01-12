@@ -12,7 +12,7 @@ class TestCalculator():
     """
 
     def test_add(self):
-        """Test code on add method"""
+        """test functionality of add method."""
         x = 1.0
         y = 1.0
         calc = Calculator()

@@ -29,3 +29,17 @@ class Calculator(object):
             float: The quotient fo two given numbers.
         """
         return a / b
+
+    def bitwise_not(self, a):
+        """Return bitwise not of given number.
+
+        Given number bit type a
+        returns - 1 - a
+
+        Arg:
+            a (int): The number for bitwise not
+
+        Return:
+            int: The bitwise not of two given numbers.
+        """
+        return - 1 - a

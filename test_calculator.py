@@ -40,3 +40,11 @@ class TestCalculator():
 
         result = calc.div(1., 1.e5)
         assert result == 1.e-5
+
+    def test_xor(self):
+        """Put your test cases for div that starts with assert."""
+        calc = Calculator()
+        result = calc.bitwise_xor(60, 13)
+        assert result == 49
+
+

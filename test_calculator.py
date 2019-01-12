@@ -12,7 +12,7 @@ class TestCalculator():
     """
 
     def test_add(self):
-        """Put your test cases for add that starts with assert."""
+        """Test code on add method"""
         x = 1.0
         y = 1.0
         calc = Calculator()

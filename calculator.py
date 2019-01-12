@@ -33,14 +33,14 @@ class Calculator(object):
     def bitwise_xor(self, a, b):
         """Return  xor of two given numbers.
 
-        Given two numbers float type a, b
-        returns float type a^b.
+        Given two numbers int type a, b
+        returns int type a^b.
 
         Arg:
-            a (float)
-            b (float)
+            a (int)
+            b (int)
 
         Return:
-            float: The xor result of two given numbers.
+            int: The xor result of two given numbers.
         """
         return a ^ b

@@ -1,6 +1,5 @@
 """Simple calculator example for the practice of collaboration."""
 
-
 class Calculator(object):
     """Simple calculator which has 4 functionalities.
 
@@ -17,7 +16,7 @@ class Calculator(object):
 
     def div(self, a, b):
         """Return quotient of two given numbers.
-
+        #기능
         Given two numbers float type a, b
         returns float type a/b.
 
@@ -29,3 +28,7 @@ class Calculator(object):
             float: The quotient fo two given numbers.
         """
         return a / b
+
+    def bitwise_shift_right(self):
+
+        return

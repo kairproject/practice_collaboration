@@ -29,3 +29,31 @@ class Calculator(object):
             float: The quotient fo two given numbers.
         """
         return a / b
+
+    def sub(self, a: float, b: float) -> float:
+        """Subtraction method for calculator class.
+
+        Note:
+            Do not include the `self` parameter in the ``Args`` section.
+        Args:
+            param1: The first parameter.
+            param2: The second parameter.
+        Returns:
+            Subtraction of param1 to param2.
+
+        """
+        return a-b
+
+    def bitwise_or(self, a: int, b: int) -> int:
+        """Copy a bit if it exists in either operand.
+
+        Note:
+            Do not include the `self` parameter in the ``Args`` section.
+        Args:
+            param1: The first parameter.
+            param2: The second parameter.
+        Returns:
+            Bit which exists in either operand.
+
+        """
+        return a | b

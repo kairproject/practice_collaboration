@@ -17,9 +17,10 @@ class TestCalculator():
 
     def test_sub(self):
         """Put your test cases for sub that starts with assert."""
-        assert Calculator.sub(10.0, 7.3) == 2.7
-        assert Calculator.sub(6.3, 7.3) == -1.0
-        assert Calculator.sub(2.0, 3.1) == -1.1
+        cal = Calculator()
+        assert cal.sub(10.0, 7.3) == 2.7
+        assert cal.sub(6.3, 7.3) == -1.0
+        assert cal.sub(2.0, 3.1) == -1.1
 
     def test_mul(self):
         """Put your test cases for mul that starts with assert."""

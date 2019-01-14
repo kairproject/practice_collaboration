@@ -59,18 +59,3 @@ class Calculator(object):
 
         """
         return a - b
-
-    def bitwise_or(self, a: int, b: int) -> int:
-        """Copy a bit if it exists in either operand.
-
-        Note:
-            Do not include the `self` parameter in the ``Args`` section.
-        Args:
-            a (int): The left operand of bitwise or.
-            b (int): The right operand of bitwise of.
-        Returns:
-            Bit which exists in either operand.
-
-        """
-        return a | b
->>>>>>> feat/calculator/add3

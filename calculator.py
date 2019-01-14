@@ -29,5 +29,16 @@ class Calculator(object):
         return a / b
 
     def add(self, x, y):
-        """Return the sum of two inputs."""
-        return x+y
+        """Return the sum of two inputs.
+
+        Given two numbers of float type x, y
+        returns float type x + y
+
+        Arg:
+            x (float) : The first element of sum.
+            y (float) : The second element of sum.
+
+        Return:
+            float : The sum of two given numbers.
+        """
+        return x + y

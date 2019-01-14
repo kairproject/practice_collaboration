@@ -30,7 +30,7 @@ class Calculator(object):
         """
         return a / b
 
-    def add(self, x, y):
+    def add(self, x: float, y: float) -> float:
         """Return the sum of two inputs.
 
         Given two numbers of float type x, y
@@ -55,6 +55,7 @@ class Calculator(object):
             b (float): The right operand of subtraction.
         Returns:
             Subtraction of a to b.
+
         """
         return a - b
 
@@ -69,5 +70,6 @@ class Calculator(object):
 
         Returns:
             Bit which exists in either operand.
+
         """
         return a | b

@@ -50,8 +50,8 @@ class Calculator(object):
         Note:
             Do not include the `self` parameter in the ``Args`` section.
         Args:
-            param1: The left operand of bitwise or.
-            param2: The right operand of bitwise of.
+            a (int): The left operand of bitwise or.
+            b (int): The right operand of bitwise of.
         Returns:
             Bit which exists in either operand.
 

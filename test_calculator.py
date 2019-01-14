@@ -16,12 +16,7 @@ class TestCalculator():
         pass
 
     def test_sub(self):
-        """Check 3 test cases. Vary input signs and check the results.
-
-        First unit test : check two positive inputs.
-        Second unit test : check one negative input and one positive input.
-        Third unit test : check two negative inputs.
-        """
+        """Check 3 test cases which varies signs of input for subtraction."""
         cal = Calculator()
         result = cal.sub(10.0, 7.3)
         assert result == 2.7
@@ -55,13 +50,13 @@ class TestCalculator():
         assert result == 1.e-5
 
     def test_bitwise_or(self):
-        """Put your test casese for bitwise_or  that starts with assert."""
+        """Check 3 test cases which varies length of input for bitwise_or."""
         calc = Calculator()
         result = calc.bitwise_or(0b010000, 0b100000)
         assert result == 0b110000
 
-        result = calc.bitwise_or(0b00011, 0b110000)
-        assert result == 0b110011
+        result = calc.bitwise_or(0b00011, 0b11000)
+        assert result == 0b11011
 
         result = calc.bitwise_or(0b0010, 0b1000)
         assert result == 0b1010

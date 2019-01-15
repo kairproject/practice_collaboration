@@ -12,8 +12,11 @@ class TestCalculator():
     """
 
     def test_add(self):
-        """Put your test cases for add that starts with assert."""
-        pass
+        """Test functionality of add method."""
+        x = 1.0
+        y = 1.0
+        calc = Calculator()
+        assert calc.add(x, y) == 2.0
 
     def test_sub(self):
         """Check 3 test cases which varies signs of input for subtraction."""

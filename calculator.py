@@ -30,6 +30,21 @@ class Calculator(object):
         """
         return a / b
 
+    def add(self, x: float, y: float) -> float:
+        """Return the sum of two inputs.
+
+        Given two numbers of float type x, y
+        returns float type x + y
+
+        Arg:
+            x (float) : The first element of sum.
+            y (float) : The second element of sum.
+
+        Return:
+            float : The sum of two given numbers.
+        """
+        return x + y
+
     def sub(self, a: float, b: float) -> float:
         """Subtraction method for calculator class.
 
@@ -52,6 +67,7 @@ class Calculator(object):
         Args:
             a (int): The left operand of bitwise or.
             b (int): The right operand of bitwise of.
+
         Returns:
             Bit which exists in either operand.
 

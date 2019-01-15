@@ -57,7 +57,7 @@ class Calculator(object):
 
         """
         return a | b
-      
+
     def bitwise_xor(self, a, b):
         """Return  xor of two given numbers.
 

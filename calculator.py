@@ -15,11 +15,6 @@ class Calculator(object):
     before pushing your code. (check 100% test covered)
     """
 
-<<<<<<< HEAD
-    def sub(self, a: float, b: float) -> float:
-        return a-b
-
-=======
     def div(self, a, b):
         """Return quotient of two given numbers.
 
@@ -35,6 +30,34 @@ class Calculator(object):
         """
         return a / b
 
+    def sub(self, a: float, b: float) -> float:
+        """Subtraction method for calculator class.
+
+        Note:
+            Do not include the `self` parameter in the ``Args`` section.
+        Args:
+            a (float): The left operand of subtraction.
+            b (float): The right operand of subtraction.
+        Returns:
+            Subtraction of a to b.
+
+        """
+        return a - b
+
+    def bitwise_or(self, a: int, b: int) -> int:
+        """Copy a bit if it exists in either operand.
+
+        Note:
+            Do not include the `self` parameter in the ``Args`` section.
+        Args:
+            a (int): The left operand of bitwise or.
+            b (int): The right operand of bitwise of.
+        Returns:
+            Bit which exists in either operand.
+
+        """
+        return a | b
+      
     def bitwise_xor(self, a, b):
         """Return  xor of two given numbers.
 
@@ -49,4 +72,3 @@ class Calculator(object):
             int: The xor result of two given numbers.
         """
         return a ^ b
->>>>>>> 5639b7747b7f089e7cb64f9866d0a95c19cf8c3a

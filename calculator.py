@@ -26,20 +26,77 @@ class Calculator(object):
             b (float): The divisor of dvision function.
 
         Return:
-            float: The quotient fo two given numbers.
+            float: The quotient of two given numbers.
         """
         return a / b
 
-    def bitwise_not(self, a):
-        """Return bitwise not of given number.
+    def add(self, x: float, y: float) -> float:
+        """Return the sum of two inputs.
 
-        Given number bit type a
-        returns - 1 - a
+        Given two numbers of float type x, y
+        returns float type x + y
 
         Arg:
-            a (int): The number for bitwise not
+            x (float) : The first element of sum.
+            y (float) : The second element of sum.
 
+        Return:
+            float : The sum of two given numbers.
+        """
+        return x + y
+
+    def sub(self, a: float, b: float) -> float:
+        """Subtraction method for calculator class.
+
+        Note:
+            Do not include the `self` parameter in the ``Args`` section.
+        Args:
+            a (float): The left operand of subtraction.
+            b (float): The right operand of subtraction.
+        Returns:
+            Subtraction of a to b.
+
+        """
+        return a - b
+
+    def bitwise_or(self, a: int, b: int) -> int:
+        """Copy a bit if it exists in either operand.
+
+        Note:
+            Do not include the `self` parameter in the ``Args`` section.
+        Args:
+            a (int): The left operand of bitwise or.
+            b (int): The right operand of bitwise of.
+
+        Returns:
+            Bit which exists in either operand.
+
+        """
+        return a | b
+
+    def bitwise_xor(self, a, b):
+        """Return  xor of two given numbers.
+
+        Given two numbers int type a, b
+        returns int type a^b.
+
+        Arg:
+            a (int)
+            b (int)
+
+        Return:
+            int: The xor result of two given numbers.
+        """
+        return a ^ b
+
+    def bitwise_not(self, a):
+        """Return bitwise not result of given number.
+
+        Given number bit type a
+        returns -1-a
+        Arg:
+            a (int): The number for bitwise not
         Return:
             int: The bitwise not of two given numbers.
         """
-        return - 1 - a
+        return -1-a

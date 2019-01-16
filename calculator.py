@@ -26,7 +26,7 @@ class Calculator(object):
             b (float): The divisor of dvision function.
 
         Return:
-            float: The quotient fo two given numbers.
+            float: The quotient of two given numbers.
         """
         return a / b
 
@@ -73,3 +73,18 @@ class Calculator(object):
 
         """
         return a | b
+
+    def bitwise_xor(self, a, b):
+        """Return  xor of two given numbers.
+
+        Given two numbers int type a, b
+        returns int type a^b.
+
+        Arg:
+            a (int)
+            b (int)
+
+        Return:
+            int: The xor result of two given numbers.
+        """
+        return a ^ b

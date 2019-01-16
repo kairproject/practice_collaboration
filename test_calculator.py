@@ -21,6 +21,12 @@ class TestCalculator():
     def test_sub(self):
         """Check 3 test cases which varies signs of input for subtraction."""
         cal = Calculator()
+        assert cal.sub(10.0, 7.3) == 2.7
+        assert cal.sub(6.3, 7.3) == -1.0
+        assert cal.sub(2.0, 3.1) == -1.1
+
+        """Check 3 test cases which varies signs of input for subtraction."""
+        cal = Calculator()
         result = cal.sub(10.0, 7.3)
         assert result == 2.7
 
@@ -63,3 +69,9 @@ class TestCalculator():
 
         result = calc.bitwise_or(0b0010, 0b1000)
         assert result == 0b1010
+
+    def test_xor(self):
+        """Test case for calculator's bitwise xor calculations."""
+        calc = Calculator()
+        result = calc.bitwise_xor(60, 13)
+        assert result == 49

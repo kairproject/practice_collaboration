@@ -42,7 +42,7 @@ class TestCalculator():
         assert result == 1.e-5
 
     def test_bitwise_not(self):
-        """Put your test cases for bitwise not that starts with assert.
+        """Test cases for bitwise_not function in Calculator class.
 
         To use:
         calc = Calculator()

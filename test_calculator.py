@@ -77,13 +77,7 @@ class TestCalculator():
         assert result == 49
 
     def test_bitwise_not(self):
-        """Test cases for bitwise_not function in Calculator class.
-
-        To use:
-        calc = Calculator()
-        result = calc.bitwise_not(60)
-        assert result == -61
-        """
+        """Test cases for bitwise_not function in Calculator class."""
         calc = Calculator()
         result = calc.bitwise_not(60)
         assert result == -61

@@ -94,7 +94,7 @@ class Calculator(object):
 
         Given number bit type a
         returns -1-a
-        
+
         Arg:
             a (int): The number for bitwise not
         Return:
